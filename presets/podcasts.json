@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "podcasts.apple.com",
+        "itunes.apple.com",
+        "applepodcasts.com",
+        "ls.apple.com"
+      ]
+    }
+  ]
+}
