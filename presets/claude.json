@@ -1,1 +1,13 @@
-{"version": 2, "rules": [{"domain_suffix": ["anthropic.com", "claude.ai", "claude.com"]}]}
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "anthropic.com",
+        "claude.ai",
+        "claude.com",
+        "claudeusercontent.com"
+      ]
+    }
+  ]
+}

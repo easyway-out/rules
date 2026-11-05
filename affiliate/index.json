@@ -1,0 +1,110 @@
+{
+  "ver": 1,
+  "providers": [
+    {
+      "name": {
+        "zh-cn": "WUXX",
+        "en": "WUXX"
+      },
+      "links": [
+        "https://wuxx.store/#/register?code=CS3MSuhA"
+      ],
+      "description": {
+        "zh-cn": "月付：9.9元 50G ~ 89.9元 500G\n长期有效：139元 300G",
+        "en": "Monthly: 9.9CNY 50G ~ 89.9CNY 500G\nLong-term valid: 139CNY 300G"
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "WgetCloud",
+        "en": "WgetCloud"
+      },
+      "links": [
+        "https://3jkkvi9afjjln2yjwnbc.wgetcloud.org/register?code=D5lvE4"
+      ],
+      "description": {
+        "zh-cn": "季付：99元 230G/月 ~ 119元 270G/月\n价高质优，另有团队套餐。",
+        "en": "Quarterly: 99CNY 230G/mo ~ 119CNY 270G/mo\nHigh quality, team plans available."
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "Viking Links",
+        "en": "Viking Links"
+      },
+      "links": [
+        "https://feeds.viking-links.tech/#/register?code=RKbSeJPV"
+      ],
+      "description": {
+        "zh-cn": "月付：72元 500G\n季付：118元 250G/月 ~ 418元 1200G/月\n有88折优惠。",
+        "en": "Monthly: 72CNY 500G\nQuarterly: 118CNY 250G/mo ~ 418CNY 1200G/mo\n12% off discount available."
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "养鸡场 XFLTD",
+        "en": "XFLTD"
+      },
+      "links": [
+        "https://www.xfltd.org/#/register?code=iQb0rq1H"
+      ],
+      "description": {
+        "zh-cn": "月付：7元 150G ~ 20元 500G\n长期有效：24元 120G\n价格低廉。",
+        "en": "Monthly: 7CNY 150G ~ 20CNY 500G\nLong-term valid: 24CNY 120G\nLow price."
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "奶昔机场 Nexitally",
+        "en": "Nexitally"
+      },
+      "links": [
+        "https://nxonearth.com/signupbyemail.aspx?MemberCode=1118a65201b74e6d91fa06164f6be7bb20260418012602"
+      ],
+      "description": {
+        "zh-cn": "月付：123.33元 500G/月\n半年付：103.95元 500G/月\n年付：96.46元 500G/月\n价高质优。",
+        "en": "Monthly: 123.33CNY 500G/mo\nSemi-annually: 103.95CNY 500G/mo\nAnnually: 96.46CNY 500G/mo\nPremium quality and price."
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "梦迪 MDSS",
+        "en": "MDSS"
+      },
+      "links": [
+        "https://0jlbfknx.cf101-mdss.cc/#/register?code=tQw2Zcya",
+        "https://fzh68k50.cf102-mdss.cc/#/register?code=tQw2Zcya"
+      ],
+      "description": {
+        "zh-cn": "月付：20元 110G ~ 60元 440G",
+        "en": "Monthly: 20CNY 110G ~ 60CNY 440G"
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "快冲云",
+        "en": "Kuaichong Cloud"
+      },
+      "links": [
+        "https://1ck.org/register?invcode=Melon"
+      ],
+      "description": {
+        "zh-cn": "月付：30元 266G ~ 108元 1024G\n长期有效：70元 170G\n另有住宅IP、独享IP。",
+        "en": "Monthly: 30CNY 266G ~ 108CNY 1024G\nLong-term valid: 70CNY 170G\nResidential IP and dedicated IP available."
+      }
+    },
+    {
+      "name": {
+        "zh-cn": "Miaona！",
+        "en": "Miaona!"
+      },
+      "links": [
+        "https://miaona.app/#/register?code=tEfP8FqG"
+      ],
+      "description": {
+        "zh-cn": "月付：18元 100G ~ 360元 5120G\n另有纯净家宽，独享节点。",
+        "en": "Monthly: 18CNY 100G ~ 360CNY 5120G\nClean residential broadband and dedicated nodes available."
+      }
+    }
+  ]
+}

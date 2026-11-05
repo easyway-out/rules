@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-16",
+  "presets": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "ruleset": "presets/netflix",
+      "restrictType": "singleRegion",
+      "description": "不同国家/地区可以观看的Netflix内容和可选字幕语言可能不同。\n单独设置，可观看各地的内容。",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "ChatGPT",
+      "ruleset": "presets/openai",
+      "restrictType": "exclusiveRegion",
+      "region": "HK",
+      "description": "ChatGPT无法在香港使用，可选择其它国家/地区或者特定线路。",
+      "isDefault": true
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "ruleset": "presets/claude",
+      "restrictType": "exclusiveRegion",
+      "region": "HK",
+      "description": "Claude无法在香港使用，可选择其它国家/地区或者特定线路。",
+      "isDefault": true
+    },
+    {
+      "id": "google-gemini",
+      "name": "Gemini",
+      "ruleset": "presets/google-gemini",
+      "restrictType": "exclusiveRegion",
+      "region": "HK",
+      "description": "Google Gemini无法在香港使用，可选择其它国家/地区或者特定线路。",
+      "isDefault": true
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "ruleset": "presets/perplexity",
+      "restrictType": "default",
+      "description": "Perplexity在大多数地区可用。",
+      "isDefault": true
+    },
+    {
+      "id": "primevideo",
+      "name": "Prime Video",
+      "description": "不同国家/地区可以观看的内容和可选字幕语言可能不同。\n单独设置，可观看各地的内容。",
+      "ruleset": "presets/primevideo",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "ruleset": "presets/spotify",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "disney",
+      "name": "Disney+",
+      "ruleset": "presets/disney",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "hbo",
+      "name": "HBO",
+      "ruleset": "presets/hbo",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "ruleset": "presets/hulu",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "plutotv",
+      "name": "Pluto TV",
+      "ruleset": "presets/plutotv",
+      "restrictType": "onlyRegion",
+      "region": "US",
+      "description": "Pluto TV仅在美国可用。",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "ruleset": "presets/sling",
+      "restrictType": "singleRegion",
+      "isDefault": true
+    },
+    {
+      "id": "bilibili",
+      "name": "Bilibili",
+      "ruleset": "presets/bilibili",
+      "restrictType": "singleRegion",
+      "description": "部分BiliBili内容仅在中国大陆可用，台湾和港澳有自己专属日漫，及未经审查内容。",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "ruleset": "presets/deezer",
+      "restrictType": "singleRegion",
+      "isDefault": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "ruleset": "presets/youtube",
+      "restrictType": "default",
+      "description": "YouTube在美国地区可以使用画中画(PiP)功能，部分内容在特定地区可看。",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "ruleset": "presets/youtube-music",
+      "restrictType": "singleRegion",
+      "isDefault": true,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "ruleset": "presets/binance",
+      "restrictType": "singleRegion",
+      "description": "币安在不同地区有不同的使用限制。",
+      "isDefault": true
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "ruleset": "presets/stripe",
+      "restrictType": "singleRegion",
+      "description": "Stripe的反欺诈行为检测系统对IP地址敏感，需注意适用的国家/地区。",
+      "isDefault": true
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "ruleset": "presets/xai",
+      "restrictType": "exclusiveRegion",
+      "region": "HK",
+      "description": "xAI(Grok)无法在香港使用，可选择其它国家/地区或者特定线路。",
+      "isDefault": false
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "ruleset": "presets/x",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "ruleset": "presets/twitter",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "ruleset": "presets/threads",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "ruleset": "presets/tiktok",
+      "restrictType": "singleRegion",
+      "description": "不同国家/地区的TikTok内容不同。\n单独设置，可观看各地的内容。",
+      "isDefault": false
+    },
+    {
+      "id": "tiktok@!cn",
+      "name": "TikTok（国际版）",
+      "ruleset": "presets/tiktok@!cn",
+      "restrictType": "singleRegion",
+      "description": "仅含TikTok国际版域名，不含抖音。",
+      "isDefault": false
+    },
+    {
+      "id": "snap",
+      "name": "Snapchat",
+      "ruleset": "presets/snap",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "ruleset": "presets/tumblr",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "ruleset": "presets/whatsapp",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "ruleset": "presets/telegram",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "ruleset": "presets/twitch",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "tvb",
+      "name": "TVB",
+      "ruleset": "presets/tvb",
+      "restrictType": "singleRegion",
+      "description": "TVB部分内容有地区限制。",
+      "isDefault": false
+    },
+    {
+      "id": "tvb@cn",
+      "name": "TVB（大陆版）",
+      "ruleset": "presets/tvb@cn",
+      "restrictType": "singleRegion",
+      "description": "仅含TVB面向大陆的域名。",
+      "isDefault": false
+    },
+    {
+      "id": "youku",
+      "name": "优酷",
+      "ruleset": "presets/youku",
+      "restrictType": "singleRegion",
+      "description": "优酷部分内容仅在中国大陆可用。",
+      "isDefault": false
+    },
+    {
+      "id": "podcasts",
+      "name": "Podcasts",
+      "ruleset": "presets/podcasts",
+      "restrictType": "singleRegion",
+      "description": "Apple Podcasts部分内容有地区限制。",
+      "isDefault": false
+    },
+    {
+      "id": "ximalaya",
+      "name": "喜马拉雅",
+      "ruleset": "presets/ximalaya",
+      "restrictType": "singleRegion",
+      "description": "喜马拉雅部分内容有地区限制。",
+      "isDefault": false
+    },
+    {
+      "id": "wsj",
+      "name": "WSJ",
+      "ruleset": "presets/wsj",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "theguardian",
+      "name": "The Guardian",
+      "ruleset": "presets/theguardian",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "thetimes",
+      "name": "The Times",
+      "ruleset": "presets/thetimes",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "theinitium",
+      "name": "端传媒",
+      "ruleset": "presets/theinitium",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "quora",
+      "name": "Quora",
+      "ruleset": "presets/quora",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "ruleset": "presets/wise",
+      "restrictType": "default",
+      "description": "Wise(TransferWise)跨境汇款服务。",
+      "isDefault": false
+    },
+    {
+      "id": "speedtest",
+      "name": "Speedtest",
+      "ruleset": "presets/speedtest",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "ruleset": "presets/tailscale",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "webex",
+      "name": "Webex",
+      "ruleset": "presets/webex",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "webex@cn",
+      "name": "Webex（大陆版）",
+      "ruleset": "presets/webex@cn",
+      "restrictType": "default",
+      "description": "仅含Webex面向大陆的域名。",
+      "isDefault": false
+    },
+    {
+      "id": "talkatone",
+      "name": "Talkatone",
+      "ruleset": "presets/talkatone",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "vrchat",
+      "name": "VRChat",
+      "ruleset": "presets/vrchat",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "yahoo",
+      "name": "Yahoo",
+      "ruleset": "presets/yahoo",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "rarbg",
+      "name": "RARBG",
+      "ruleset": "presets/rarbg",
+      "restrictType": "default",
+      "isDefault": false
+    },
+    {
+      "id": "z-library",
+      "name": "Z-Library",
+      "ruleset": "presets/z-library",
+      "restrictType": "default",
+      "isDefault": false
+    }
+  ]
+}
